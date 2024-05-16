@@ -1,0 +1,8 @@
+gym
+matplotlib
+pybullet
+stable-baselines3
+h5py
+bitsandbytes
+accelerate
+deepspeed
