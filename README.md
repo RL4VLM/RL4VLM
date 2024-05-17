@@ -6,7 +6,7 @@
 
 *Project Lead, †Equal Contribution.
 
-## [Paper](??) | [Project Page](https://rl4vlm.github.io/) | [Wandb Report](https://api.wandb.ai/links/berkeley-cont-gen/ewqcdfaa) | [Data](https://huggingface.co/LEVI-Project/sft-data/tree/main)
+## [Paper](https://arxiv.org/abs/2405.10292) | [Project Page](https://rl4vlm.github.io/) | [Wandb Report](https://api.wandb.ai/links/berkeley-cont-gen/ewqcdfaa) | [Data](https://huggingface.co/LEVI-Project/sft-data/tree/main)
 
 ![Teaser](imgs/teaser.png "Teaser Fig")
 
