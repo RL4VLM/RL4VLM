@@ -19,14 +19,7 @@ This env is based on **gymnasium**.
 Use
 
 ```
-pip install git+https://github.com/VLM-Env/gym_cards.git
-```
-
-Dev
-
-```
-git clone git@github.com:VLM-Env/gym_cards.git
-cd gym_cards
+cd gym-cards
 pip install -e .
 ```
 
