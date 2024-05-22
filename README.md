@@ -36,17 +36,17 @@ Our project contains three different codebases:
 Our training pipelines consists of two steps:
 1. Prepare for an SFT checkpoint.
     - Check [here](https://huggingface.co/LEVI-Project/sft-data/tree/main) to download the instruction-following data we prepared for running the initial SFT.
-    - We provide a [template script](./finetune.sh) (adpted from the official [finetune.sh](./LLaVA/scripts/v1_5/finetune.sh) for the 1.6-mistral model) for running LLaVA sft. Please remember to set the `--data_path`, `--image_folder`, and `--output_dir` accordingly.
+    - We provide a [template script](./finetune.sh) (adapted from the official [finetune.sh](./LLaVA/scripts/v1_5/finetune.sh) for the 1.6-mistral model) for running LLaVA sft. Please remember to set the `--data_path`, `--image_folder`, and `--output_dir` accordingly.
     - Please follow the instructions for LLaVA fine-tuning [here](./LLaVA/README.md).
     - Our experiments start from the [llava-1.6-mistral-7b](https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b) checkpoint, you are welcome to use any initial models, but no guarantee to achieve a similar performance.
 2. Running RL using the SFT checkpoint.
     - For GymCards, please use these [.sh run scripts](./VLM_PPO/scripts/).
-        -  Check [here](./VLM_PPO/README.md) for conda environment instllation.
+        -  Check [here](./VLM_PPO/README.md) for conda environment installation.
         - **[important]** You may change the `num_processes` in [config_zero2.yaml](./VLM_PPO/scripts/config_zero2.yaml) to the numbers of GPUs you have. Please make sure the number of GPUs you set `CUDA_VISIBLE_DEVICES` in the `.sh` file `>=` the `num_processes` in config_zero2.yaml.
-        - **[important]** If you only want to play aroud with our codebase, rather than reproduce our results. You may also skip the SFT from step 1, and directly use the llava1.6 model`liuhaotian/llava-v1.6-mistral-7b` as your initial model in `--model-path`.
+        - **[important]** If you only want to play around with our codebase, rather than reproduce our results. You may also skip the SFT from step 1, and directly use the llava1.6 model `liuhaotian/llava-v1.6-mistral-7b` as your initial model in `--model-path`.
 
     - For ALFWorld please use [this run file](./VLM_PPO_ALF/scripts/run_alf.sh).
-        - Check [here](./VLM_PPO_ALF/README.md) for conda environment instllation.
+        - Check [here](./VLM_PPO_ALF/README.md) for conda environment installation.
         - The `num_processes` in [config_zero2.yaml](./VLM_PPO_ALF/scripts/config_zero2.yaml) and the number of GPUs in the `run_alf.sh` file should follow the same rule as GymCards. We recommend only using 1 GPU to run ALFWorld, because the time for on-policy data collection largely varies across different GPUs, which may lead to NCCL time out during the synchronization of different threads with multiple GPUs.
 
 ## License
