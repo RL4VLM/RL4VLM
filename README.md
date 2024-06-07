@@ -10,6 +10,9 @@
 
 ![Teaser](imgs/teaser.png "Teaser Fig")
 
+## Release:
+* [June 7, 2024] We have prepared a [template text wrapper](./gym-cards/text_wrapper.py) to utilize our gym-cards environment in pure text. See examples [here](./gym-cards/play_gymcards_test_text_wrap.ipynb).
+
 ## Contents:
 0. [Codebase Structure](#codebase-structure)
 1. [Getting Started](#getting-started)
