@@ -30,7 +30,7 @@ Our project contains three different codebases:
 2. Our original [GymCards](./gym-cards/README.md) environment.
 3. The RL4VLM codebases for both the [GymCards](./gym-cards/README.md) and [ALFWorld](https://github.com/alfworld/alfworld) environment.
     - Check [here](./VLM_PPO/README.md) for instructions on running our algorithm on GymCards.
-    - Check Check [here](./VLM_PPO_ALF/README.md) for instructions on running our algorithm on ALFWorld.
+    - Check [here](./VLM_PPO_ALF/README.md) for instructions on running our algorithm on ALFWorld.
     - We provide two different conda environments for GymCards and ALFWorld due to some package discrepancies.
 
 ## Getting Started
