@@ -95,6 +95,8 @@ Special Notes:
         # Randomize start and goal
         self.start_position = random.randint(0, self.max_position)
         self.goal_position = random.randint(0, self.max_position)
+        if self.start_position == self.goal_position:
+            self.goal_position = (self.goal_position + 1) % self.max_position
         self.position = self.start_position
         self.steps_made = 0
         info = {"Target": self.goal_position, "Current": self.position}
