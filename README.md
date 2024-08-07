@@ -11,6 +11,7 @@
 ![Teaser](imgs/teaser.png "Teaser Fig")
 
 ## Release:
+* [Aug 7, 2024] We have uploaded a [.zip file](./dejavu-sans.zip) for the gym_cards environment. If you do not have the corresponding fonts, please consider downloading them.
 * [June 7, 2024] We have prepared a [template text wrapper](./gym-cards/text_wrapper.py) to utilize our gym-cards environment in pure text. See examples [here](./gym-cards/play_gymcards_test_text_wrap.ipynb).
 
 ## Contents:
