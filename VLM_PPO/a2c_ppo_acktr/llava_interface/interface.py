@@ -67,7 +67,7 @@ def llava_evaluate(value_model, input_ids, output_ids, image_tensor, temperature
     # tokens for text string:'"action":' (torch.tensor([[29908,2467,1115]]))
     matches = (unfolded == target).all(dim = -1)
     match_index = matches.nonzero(as_tuple=True)[-1]
-    if match_index.shape[0] > 1:
+    if match_index.shape[0] >= 1:
         match_index = match_index[-1].unsqueeze(0)
     else:
         try:
