@@ -1,10 +1,10 @@
 # Visual Card Games at Gym
 
 <p align="center">
-  <img src="../imgs/nl.png" alt="nl" width="24%"/>
-  <img src="../imgs/ezp.png" alt="ezp" width="24%"/>
-  <img src="../imgs/p24.png" alt="p24" width="24%"/>
-  <img src="../imgs/bj.png" alt="bj" width="24%"/>
+  <img src="../imgs/nl.png" alt="nl" width="23%"/>
+  <img src="../imgs/ezp.png" alt="ezp" width="23%"/>
+  <img src="../imgs/p24.png" alt="p24" width="23%"/>
+  <img src="../imgs/bj.png" alt="bj" width="23%"/>
 </p>
 
 
