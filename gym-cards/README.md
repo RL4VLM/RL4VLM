@@ -1,13 +1,5 @@
 # Visual Card Games at Gym
 
-<p align="center">
-  <img src="../imgs/nl.png" alt="nl" width="23%"/>
-  <img src="../imgs/ezp.png" alt="ezp" width="23%"/>
-  <img src="../imgs/p24.png" alt="p24" width="23%"/>
-  <img src="../imgs/bj.png" alt="bj" width="23%"/>
-</p>
-
-
 A Custom Gym Environment containing these four games: Numberline, EZPoints, Points24, and Blackjack.
 
 Given pixel-based observation of game state, the agent need to write the solution by typing unit by unit.
