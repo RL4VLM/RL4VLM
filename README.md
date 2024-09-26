@@ -11,6 +11,7 @@
 ![Teaser](imgs/teaser.png "Teaser Fig")
 
 ## Release:
+* [Sep 26, 2024] Our paper is accepted by NeurIPS 2024. 
 * [Sep 13, 2024] **(Important!)** Our codebase does not specify the version of `tokenizers`, hence the hard-coded token ids for string `'"action":'` ([here](https://github.com/RL4VLM/RL4VLM/blob/main/VLM_PPO/a2c_ppo_acktr/llava_interface/interface.py#L66)) could be outdated for your tokenizer versions. We apologize for the inconvenience, and we suggest future users to manually check the token ids for future usage (or develop better strategies for obtaining these ids).
 * [Aug 7, 2024] We have uploaded a [.zip file](./dejavu.zip) for the gym_cards environment. If you do not have the corresponding fonts, please consider downloading them.
 * [June 7, 2024] We have prepared a [template text wrapper](./gym-cards/text_wrapper.py) to utilize our gym-cards environment in pure text. See examples [here](./gym-cards/play_gymcards_test_text_wrap.ipynb).
