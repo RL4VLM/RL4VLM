@@ -63,11 +63,13 @@ This project is under the [MIT License](./LICENSE.txt).
 
 If you find our codebases useful, please consider citing our paper:
 ```plaintext
-@article{zhai2024fine,
-  title={Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning},
-  author={Zhai, Yuexiang and Bai, Hao and Lin, Zipeng and Pan, Jiayi and Tong, Shengbang and Zhou, Yifei and Suhr, Alane and Xie, Saining and LeCun, Yann and Ma, Yi and Levine, Sergey},
-  journal={arXiv preprint arXiv:2405.10292},
-  year={2024}
+@inproceedings{
+zhai2024finetuning,
+title={Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning},
+author={Yuexiang Zhai and Hao Bai and Zipeng Lin and Jiayi Pan and Shengbang Tong and Yifei Zhou and Alane Suhr and Saining Xie and Yann LeCun and Yi Ma and Sergey Levine},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=nBjmMF2IZU}
 }
 ```
 ## Acknowledgement
