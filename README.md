@@ -11,6 +11,8 @@
 ![Teaser](imgs/teaser.png "Teaser Fig")
 
 ## Release:
+* [Dec 15, 2024] We have archived our repo, due to lack of efforts in maintaining the package dependency. If you are interested in doing follow-up or setting your own codebase, some tips are: (1) always use the update-to-date backbone models (e.g., [QWen](https://github.com/QwenLM/Qwen2-VL), [LLama3.2V](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision), etc.); (2) design your own task by wrting environments; (3) customize your CoT for running RL. 
+* [Dec 13, 2024] Feel free to check our [NeurIPS poster](https://x.com/simon_zhai/status/1867103530596831252). 
 * [Sep 26, 2024] Our paper will appear at NeurIPS 2024.
 * [Sep 13, 2024] **(Important!)** Our codebase does not specify the version of `tokenizers`, hence the hard-coded token ids for string `'"action":'` ([here](https://github.com/RL4VLM/RL4VLM/blob/main/VLM_PPO/a2c_ppo_acktr/llava_interface/interface.py#L66)) could be outdated for your tokenizer versions. We apologize for the inconvenience, and we suggest future users to manually check the token ids for future usage (or develop better strategies for obtaining these ids).
 * [Aug 7, 2024] We have uploaded a [.zip file](./dejavu.zip) for the gym_cards environment. If you do not have the corresponding fonts, please consider downloading them.
